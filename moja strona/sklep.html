@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sklep Connected Drive - BMW</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+    margin: 0; padding: 0;
+  }
+  nav {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    border-bottom: 2px solid #0072ce;
+  }
+  .logo {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #0072ce;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+  }
+  .nav-links a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 5px 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .nav-links a:hover,
+  .nav-links a.active {
+    background-color: #0072ce;
+    color: white;
+  }
+  .nav-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 1.3rem;
+    color: #eee;
+    cursor: pointer;
+  }
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3rem;
+    color: #0072ce;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #ddd;
+  }
+  img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px #0072ceaa;
+  }
+  a.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #0072ce;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a.back-link:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo" onclick="window.location.href='index.html'">BMW</div>
+  <ul class="nav-links">
+    <li><a href="modele.html">Modele i Konfigurator</a></li>
+    <li><a href="elektryczne.html">Elektryczne ▼</a></li>
+    <li><a href="sklep.html" class="active">Sklep Connected Drive</a></li>
+    <li><a href="oferty.html">Oferty online ▼</a></li>
+    <li><a href="swiat.html">Świat BMW ▼</a></li>
+  </ul>
+  <div class="nav-icons" title="Ikony akcji">
+    <span title="Konto">👤</span>
+    <span title="Koszyk">🛒</span>
+    <span title="Ulubione">❤</span>
+    <span title="Lokalizacja">📍</span>
+  </div>
+</nav>
+
+<main>
+  <h1>Sklep Connected Drive</h1>
+  <img src="https://cdn.pixabay.com/photo/2018/03/10/21/08/bmw-3216313_1280.jpg" alt="BMW Connected Drive" />
+  <p>Odkryj szeroką ofertę usług Connected Drive, które pozwolą Ci korzystać z najnowszych technologii BMW.</p>
+  <a href="index.html" class="back-link">← Powrót do strony głównej</a>
+</main>
+</body>
+</html>
