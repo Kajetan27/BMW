@@ -78,8 +78,3 @@ Szybki dostęp do kluczowych obszarów serwisu:
 * **Treść:** "Poznaj historię, wartości i pasję, które stoją za marką BMW od ponad 100 lat."
 
 ---
-
-## 🛠️ Stopka (Footer)
-* **Kontakt:** Infolinia, lokalizator dealerów.
-* **Social Media:** Instagram, YouTube, LinkedIn, Facebook.
-* **Prawne:** Polityka prywatności, pliki cookies, regulaminy leasingu.
