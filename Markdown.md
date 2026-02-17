@@ -1,53 +1,85 @@
-🏎️ Projekt Serwisu Internetowego BMW
-🏗️ Architektura Stron i Treść
-1. Strona Główna (index.html)
-Hero Section: Duże, wysokiej jakości zdjęcie flagowego modelu BMW X3.
+# 🚀 Projekt Serwisu Internetowego BMW
 
-Oferta: Sekcja finansowania (np. "BMW X3 już od 2 500 zł netto/mies. w leasingu").
+Dokumentacja architektury informacji, struktury podstron oraz wytycznych wizualnych.
 
-Call to Action (CTA):
+---
 
-Skonfiguruj → przekierowanie do modele.html
+## 🎨 Wytyczne Designu (UI/UX)
+* **Kolorystyka:** Dark Mode (Głęboka czerń `#000000`, ciemny grafit `#1C1C1C`).
+* **Akcenty:** Markowy błękit BMW (`#1C69D4`), biel (`#FFFFFF`) dla tekstów.
+* **Typografia:** Nowoczesny sans-serif (np. BMW Type Next lub Helvetica Neue).
+* **Nawigacja:** Sticky menu (przyklejone do góry) z efektem rozmycia tła (glassmorphism).
 
-Dowiedz się więcej → przekierowanie do modele.html
+---
 
-Nawigacja: Pełne menu z odnośnikami do wszystkich sekcji serwisu.
+## 🏠 1. Strona Główna (`index.html`)
 
-Design: Ciemne tło, nowoczesna typografia, charakterystyczne niebieskie akcenty marki.
+### A. Hero Section
+* **Wizualizacja:** Pełnoekranowe zdjęcie BMW X3 w ruchu.
+* **Nagłówek:** "Radość z jazdy. Odkryj nową definicję luksusu."
+* **CTA:** * `[ Skonfiguruj ]` -> `modele.html`
+    * `[ Dowiedz się więcej ]` -> `modele.html`
 
-2. Modele i Konfigurator (modele.html)
-Prezentacja: Przegląd gamy modelowej (np. BMW X5).
+### B. Oferta Finansowania
+* **Komunikat:** 💎 **BMW X3 już od 2 500 zł netto/mies. w leasingu.**
+* **Styl:** Wyróżniony baner z subtelnym gradientem.
 
-Grafika: Galeria zdjęć samochodów.
+### C. Główne Kategorie (Kafelki)
+Szybki dostęp do kluczowych obszarów serwisu:
+1.  **Sklep ConnectedDrive:** "Cyfrowe usługi pod ręką."
+2.  **Modele Elektryczne:** "BMW i – Nowa era mobilności."
+3.  **Oferty Online:** "Twoje BMW czeka w salonie online."
 
-Zachęta: „Skorzystaj z konfiguratora, aby stworzyć auto swoich marzeń”.
+---
 
-Nawigacja: Przycisk powrotu do strony głównej.
+## 🚗 2. Modele i Konfigurator (`modele.html`)
 
-3. Sklep ConnectedDrive
-Tematyka: Cyfrowe usługi i technologie BMW.
+### Przegląd Gamy
+* **Segmenty:** Seria 1-8, X (SUV), Z (Roadster), M (Performance), i (Electric).
+* **Karta modelu (np. BMW X5):**
+    * Zdjęcie wysokiej rozdzielczości.
+    * Krótka specyfikacja (moc, przyspieszenie).
+    * Przycisk: "Rozpocznij konfigurację".
 
-Grafika: Wnętrze nowoczesnego BMW z widocznym systemem iDrive.
+### Interakcja
+* Filtrowanie modeli po typie nadwozia i rodzaju napędu.
+* Przycisk powrotu: `[ ⬅ Wróć do strony głównej ]`.
 
-Treść: „Odkryj szeroką ofertę usług ConnectedDrive”.
+---
 
-4. Modele Elektryczne
-Tematyka: Linia BMW i (elektromobilność).
+## 📱 3. Usługi Cyfrowe (ConnectedDrive)
 
-Grafika: Zdjęcie modelu elektrycznego (np. BMW i4 lub iX).
+* **Temat:** Integracja smartfona z autem, My BMW App, zdalne aktualizacje.
+* **Wizualizacja:** Wnętrze kokpitu, zbliżenie na system iDrive 8.5/9.
+* **Hasło:** "Twoje cyfrowe ekosystemy w pełnej harmonii."
 
-Treść: „Łączy wydajność z ekologią i nowoczesnym designem”.
+---
 
-5. Oferty Online
-Tematyka: Promocje, wyprzedaże rocznika, oferty specjalne.
+## ⚡ 4. Modele Elektryczne (BMW i)
 
-Grafika: Samochód w ekspozycji salonowej.
+* **Temat:** Zrównoważony rozwój, technologia eDrive, ładowanie.
+* **Modele:** BMW i4, i5, i7, iX.
+* **Treść:** "Łączy wydajność z ekologią i nowoczesnym designem."
 
-Treść: „Sprawdź najnowsze promocje i oferty specjalne”.
+---
 
-6. Świat BMW
-Tematyka: Historia, dziedzictwo i filozofia marki.
+## 💰 5. Oferty Online
 
-Grafika: Logo BMW lub klasyczny model historyczny.
+* **Temat:** Samochody dostępne "od ręki", finansowanie Comfort Lease.
+* **Wizualizacja:** Zdjęcie BMW w eleganckim studio/salonie.
+* **Treść:** "Sprawdź najnowsze promocje i oferty specjalne na modele z rocznika 2024."
 
-Treść: „Poznaj historię, wartości i pasję, które stoją za marką BMW”.
+---
+
+## 🌐 6. Świat BMW
+
+* **Temat:** Dziedzictwo marki, muzeum BMW, innowacje przyszłości.
+* **Wizualizacja:** Klasyczne BMW 328 lub kultowe logo M Power.
+* **Treść:** "Poznaj historię, wartości i pasję, które stoją za marką BMW od ponad 100 lat."
+
+---
+
+## 🛠️ Stopka (Footer)
+* **Kontakt:** Infolinia, lokalizator dealerów.
+* **Social Media:** Instagram, YouTube, LinkedIn, Facebook.
+* **Prawne:** Polityka prywatności, pliki cookies, regulaminy leasingu.
